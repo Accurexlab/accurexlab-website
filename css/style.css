@@ -5,8 +5,8 @@
   --navy-3:#15305E;
   --blue:#1D5FD6;
   --blue-light:#4E8CFF;
-  --copper:#FDB515;
-  --copper-light:#FFCE6B;
+  --copper:#FFB50E;
+  --copper-light:#FFCC5B;
   --white:#FFFFFF;
   --paper:#F4F7FC;
   --paper-2:#EAF0FA;
@@ -56,7 +56,7 @@ h1,h2,h3,h4{font-family:'Inter',sans-serif;letter-spacing:-0.01em;color:var(--na
 .btn-outline:hover{background:rgba(255,255,255,.12);border-color:#fff;}
 .btn-outline-navy{border:1.5px solid var(--line);color:var(--navy);}
 .btn-outline-navy:hover{border-color:var(--blue);color:var(--blue);background:var(--paper-2);}
-.btn-copper{background:var(--copper);color:#16233F;box-shadow:0 8px 20px -8px rgba(253,181,21,.55);}
+.btn-copper{background:var(--copper);color:#16233F;box-shadow:0 8px 20px -8px rgba(255,181,14,.55);}
 .btn-copper:hover{background:#E29E00;transform:translateY(-2px);}
 
 /* ===== NAV ===== */
@@ -257,7 +257,7 @@ section.sec.tight{padding:70px 0;}
 .next-step .ns-arrow{
   display:flex;align-items:center;gap:10px;background:var(--copper);border:1.5px solid var(--copper);
   padding:14px 24px;border-radius:10px;font-weight:700;font-size:15px;color:#16233F;transition:all .25s;flex-shrink:0;
-  box-shadow:0 8px 20px -8px rgba(253,181,21,.5);
+  box-shadow:0 8px 20px -8px rgba(255,181,14,.5);
 }
 .next-step .ns-arrow:hover{background:#E29E00;border-color:#E29E00;transform:translateX(4px);}
 .bg-navy .next-step{
@@ -270,10 +270,10 @@ section.sec.tight{padding:70px 0;}
 footer{background:#fff;color:var(--mist);padding:26px 0 20px;border-top:1px solid var(--line);}
 .footer-top{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-bottom:16px;border-bottom:1px solid var(--line);flex-wrap:wrap;}
 .footer-brand-block{display:flex;align-items:center;}
-.footer-badge{height:52px;width:52px;border-radius:12px;display:block;}
+.footer-badge{height:52px;width:52px;max-width:52px;max-height:52px;object-fit:contain;border-radius:12px;display:block;flex-shrink:0;}
 .footer-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.footer-links a{font-size:14px;font-weight:600;color:var(--navy);padding:7px 14px;border-radius:8px;transition:all .2s;}
-.footer-links a:hover{background:var(--paper-2);color:var(--blue);}
+.footer-links a{font-size:13.5px;font-weight:600;color:var(--navy);padding:9px 16px;border-radius:20px;background:var(--paper-2);border:1px solid var(--line);transition:all .2s;}
+.footer-links a:hover{background:var(--blue);color:#fff;border-color:var(--blue);}
 .footer-bottom{padding-top:14px;display:flex;justify-content:space-between;font-size:12.5px;color:var(--mist-light);flex-wrap:wrap;gap:10px;}
 
 /* ===== BRAND MARK ===== */
@@ -380,7 +380,7 @@ footer{background:#fff;color:var(--mist);padding:26px 0 20px;border-top:1px soli
   .grid-4{grid-template-columns:repeat(2,1fr);}
   .grid-3{grid-template-columns:repeat(2,1fr);}
   .testi-track{grid-template-columns:1fr;}
-  .footer-top{padding-left:10px;padding-right:10px;flex-direction:column;align-items:flex-start;}
+  .footer-top{padding-left:10px;padding-right:10px;flex-direction:column;align-items:center;text-align:center;gap:18px;}
   .industry-strip{grid-template-columns:repeat(4,1fr);}
   .service-flex{grid-template-columns:1fr;}
   .contact-grid{grid-template-columns:1fr;}
@@ -394,6 +394,8 @@ footer{background:#fff;color:var(--mist);padding:26px 0 20px;border-top:1px soli
   .industry-strip{grid-template-columns:repeat(2,1fr);}
   .cta-banner{padding:40px 26px;text-align:center;justify-content:center;}
   .spec-grid{grid-template-columns:1fr;}
+  .footer-badge{height:48px!important;width:48px!important;}
+  .footer-links{justify-content:center;}
 }
 
 
