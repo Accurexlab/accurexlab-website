@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="8XZvnTEraO-bsU9UTTNsPbSSZtjM1HGq1tVwZEKSg8M" />
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C505G73MJR"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-C505G73MJR');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Accurex Lab Solutions | Independent PCB Testing &amp; Inspection</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,10 +13,11 @@ gtag('config', 'G-C505G73MJR');
 <header class="site-nav">
   <div class="nav-inner">
     <a href="#home" class="brand" onclick="go('home')">
-      <img src="images/logo.png" alt="Accurex Lab Solutions logo">
+      <img src="images/logo.png" alt="Accurex Lab Solutions icon" class="brand-icon">
       <div class="brand-text">
-        <span class="name">ACCUREX LAB SOLUTIONS</span>
-        <span class="tag">Test | Verify | Trust</span>
+        <span class="brand-line1">ACCUREX</span>
+        <span class="brand-line2">LAB SOLUTIONS LLP</span>
+        <span class="brand-tag">Test | Verify | Trust</span>
       </div>
     </a>
     <nav class="links" id="navLinks">
@@ -36,12 +26,9 @@ gtag('config', 'G-C505G73MJR');
       <a href="#services" data-page="services" onclick="go('services')">Services</a>
       <a href="#capabilities" data-page="capabilities" onclick="go('capabilities')">Capabilities</a>
       <a href="#industries" data-page="industries" onclick="go('industries')">Industries</a>
-      <a href="#testimonials" data-page="testimonials" onclick="go('testimonials')">Testimonials</a>
-      <a href="#faq" data-page="faq" onclick="go('faq')">FAQ</a>
       <a href="#contact" data-page="contact" onclick="go('contact')">Contact</a>
     </nav>
     <div class="nav-cta">
-      <a href="#quote" class="btn btn-copper" style="padding:11px 20px;font-size:14px;" onclick="go('quote')">Request Quote</a>
       <button class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -51,9 +38,6 @@ gtag('config', 'G-C505G73MJR');
     <a href="#services" onclick="go('services')" style="display:block;padding:12px 0;color:#fff;font-weight:500;">Services</a>
     <a href="#capabilities" onclick="go('capabilities')" style="display:block;padding:12px 0;color:#fff;font-weight:500;">Capabilities</a>
     <a href="#industries" onclick="go('industries')" style="display:block;padding:12px 0;color:#fff;font-weight:500;">Industries</a>
-    <a href="#testimonials" onclick="go('testimonials')" style="display:block;padding:12px 0;color:#fff;font-weight:500;">Testimonials</a>
-    <a href="#faq" onclick="go('faq')" style="display:block;padding:12px 0;color:#fff;font-weight:500;">FAQ</a>
-    <a href="#quote" onclick="go('quote')" style="display:block;padding:12px 0;color:#fff;font-weight:500;">Request Quote</a>
     <a href="#contact" onclick="go('contact')" style="display:block;padding:12px 0;color:#fff;font-weight:500;">Contact</a>
   </div>
 </header>
@@ -87,18 +71,17 @@ gtag('config', 'G-C505G73MJR');
       </g>
     </svg>
     <div class="hero-inner">
-      <span class="hero-badge"><span class="dot"></span>Independent PCB Testing Laboratory</span>
+      <span class="hero-badge"><span class="dot"></span>PCB Testing, PCB Failure Analysis &amp; Electronics Reliability Laboratory</span>
       <h1>Precision PCB Testing <em>You Can Trust</em></h1>
       <p class="sub">Independent PCB testing &amp; inspection services — accurate, reliable results backed by advanced laboratory infrastructure and technical expertise.</p>
       <div class="hero-actions">
-        <a href="#quote" class="btn btn-copper" onclick="go('quote')">Request Quote →</a>
-        <a href="#services" class="btn btn-outline" onclick="go('services')">Explore Services</a>
+        <a href="#services" class="btn btn-copper" onclick="go('services')">Explore Services →</a>
       </div>
       <div class="hero-stats">
         <div class="stat"><div class="num"><span data-count="7">0</span></div><div class="lbl">Service Types</div></div>
         <div class="stat"><div class="num"><span data-count="7">0</span></div><div class="lbl">Industries Served</div></div>
-        <div class="stat"><div class="num"><span data-count="100">0</span>%</div><div class="lbl">Independent &amp; Unbiased</div></div>
-        <div class="stat"><div class="num">IPC</div><div class="lbl">Standards Aligned</div></div>
+        <div class="stat"><div class="num num-accent"><span data-count="100">0</span>%</div><div class="lbl">Independent &amp; Unbiased</div></div>
+        <div class="stat"><div class="num num-accent">IPC</div><div class="lbl">Standards Aligned</div></div>
       </div>
     </div>
   </section>
@@ -115,18 +98,16 @@ gtag('config', 'G-C505G73MJR');
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- NEXT STEP -->
   <section class="sec tight">
     <div class="wrap">
-      <div class="cta-banner reveal">
+      <div class="next-step reveal">
         <div>
-          <h3>Ready to verify your next PCB batch?</h3>
-          <p>Send us your test requirements and we'll respond with a detailed quote within 24 hours.</p>
+          <div class="ns-label">Next</div>
+          <h3>Learn Who We Are</h3>
+          <p>See our mission, laboratory infrastructure and the team behind every test result.</p>
         </div>
-        <div style="display:flex;gap:14px;flex-wrap:wrap;">
-          <a href="#quote" class="btn btn-copper" onclick="go('quote')">Request Quote →</a>
-          <a href="#contact" class="btn btn-outline" onclick="go('contact')">Contact Us</a>
-        </div>
+        <a href="#about" class="ns-arrow" onclick="go('about')">About Us →</a>
       </div>
     </div>
   </section>
@@ -138,8 +119,46 @@ gtag('config', 'G-C505G73MJR');
   <section class="page-hero">
     <div class="wrap">
       <div class="breadcrumb">Home / About</div>
-      <h1>About Accurex Lab Solutions</h1>
-      <p>An independent PCB testing and inspection laboratory built on technical excellence, advanced infrastructure, and a simple commitment: Test | Verify | Trust.</p>
+      <h1>Accurex Lab Solutions LLP</h1>
+      <p class="page-hero-slogan">Test | Verify | Trust</p>
+    </div>
+  </section>
+
+  <section class="sec bg-paper2">
+    <div class="wrap">
+      <div class="sec-head center">
+        <div class="eyebrow" style="justify-content:center;">What Drives Us</div>
+        <h2>Mission, Vision &amp; Core Values</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <div class="icowrap icowrap-lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5.4"/><circle cx="12" cy="12" r="1.8" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <h4>Mission</h4>
+          <p>To deliver accurate, reliable and independent PCB testing that gives manufacturers absolute confidence in the boards they ship.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icowrap icowrap-lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12S6 5 12 5s10 7 10 7-4 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3.1"/><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <h4>Vision</h4>
+          <p>To be India's most trusted independent PCB testing laboratory — the reference standard for quality verification.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icowrap icowrap-lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3.2l7 2.8v5.6c0 4.8-3.2 7.7-7 8.7-3.8-1-7-3.9-7-8.7V6l7-2.8Z"/><path d="M8.3 12.1l2.4 2.4 5-5.1"/>
+            </svg>
+          </div>
+          <h4>Core Values</h4>
+          <p>Precision, independence, integrity and transparency in every test, every report, every client relationship.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -180,28 +199,6 @@ gtag('config', 'G-C505G73MJR');
         </div>
         <div class="split-media reveal">
           <img src="images/visual-inspection.jpg" alt="Inspection workstation" onclick="openLightbox('svc1','Inspection Workstation')">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="sec bg-paper2">
-    <div class="wrap">
-      <div class="grid grid-3">
-        <div class="card reveal">
-          <div class="icowrap">◎</div>
-          <h4>Mission</h4>
-          <p>To deliver accurate, reliable and independent PCB testing that gives manufacturers absolute confidence in the boards they ship.</p>
-        </div>
-        <div class="card reveal">
-          <div class="icowrap">◈</div>
-          <h4>Vision</h4>
-          <p>To be India's most trusted independent PCB testing laboratory — the reference standard for quality verification.</p>
-        </div>
-        <div class="card reveal">
-          <div class="icowrap">◆</div>
-          <h4>Core Values</h4>
-          <p>Precision, independence, integrity and transparency in every test, every report, every client relationship.</p>
         </div>
       </div>
     </div>
@@ -248,43 +245,25 @@ gtag('config', 'G-C505G73MJR');
 
   <section class="sec tight">
     <div class="wrap">
-      <div class="cta-banner reveal">
-        <div><h3>Want to see our full service list?</h3><p>Explore all seven PCB testing & packing disciplines in detail.</p></div>
-        <a href="#services" class="btn btn-copper" onclick="go('services')">View Services →</a>
+      <div class="next-step reveal">
+        <div>
+          <div class="ns-label">Next</div>
+          <h3>See Our Services</h3>
+          <p>A quick look at everything we offer — from inspection to packing.</p>
+        </div>
+        <a href="#services" class="ns-arrow" onclick="go('services')">Services →</a>
       </div>
     </div>
   </section>
 </div>
 
-<!-- ============ SERVICES ============ -->
+<!-- ============ SERVICES (quick overview) ============ -->
 <div class="page" id="page-services">
   <section class="page-hero">
     <div class="wrap">
       <div class="breadcrumb">Home / Services</div>
-      <h1>PCB Testing Capabilities</h1>
-      <p>Seven core disciplines, each performed to documented procedures for defensible, repeatable results.</p>
-    </div>
-  </section>
-  <section class="sec" style="padding-top:60px;">
-    <div class="wrap" id="serviceBlocks"></div>
-  </section>
-  <section class="sec bg-paper2 tight">
-    <div class="wrap">
-      <div class="cta-banner reveal">
-        <div><h3>Not sure which test you need?</h3><p>Tell us about your board and we'll recommend the right test plan.</p></div>
-        <a href="#quote" class="btn btn-copper" onclick="go('quote')">Request Quote →</a>
-      </div>
-    </div>
-  </section>
-</div>
-
-<!-- ============ CAPABILITIES ============ -->
-<div class="page" id="page-capabilities">
-  <section class="page-hero">
-    <div class="wrap">
-      <div class="breadcrumb">Home / Capabilities</div>
-      <h1>Our Capabilities</h1>
-      <p>Seven core disciplines covering the full lifecycle of PCB quality verification and packaging.</p>
+      <h1>Our Services</h1>
+      <p>A quick overview of everything we offer — seven disciplines covering the full lifecycle of PCB quality verification and packaging.</p>
     </div>
   </section>
   <section class="sec">
@@ -294,54 +273,40 @@ gtag('config', 'G-C505G73MJR');
   </section>
   <section class="sec bg-paper2 tight">
     <div class="wrap">
-      <div class="cta-banner reveal">
-        <div><h3>Want the full technical detail?</h3><p>See specs, methods and standards for every service.</p></div>
-        <a href="#services" class="btn btn-copper" onclick="go('services')">View Services →</a>
+      <div class="next-step reveal">
+        <div>
+          <div class="ns-label">Next</div>
+          <h3>See the Full Technical Detail</h3>
+          <p>Methods, standards and specs behind every service we perform.</p>
+        </div>
+        <a href="#capabilities" class="ns-arrow" onclick="go('capabilities')">Capabilities →</a>
       </div>
     </div>
   </section>
 </div>
 
-<!-- ============ TESTIMONIALS ============ -->
-<div class="page" id="page-testimonials">
+<!-- ============ CAPABILITIES (full technical detail) ============ -->
+<div class="page" id="page-capabilities">
   <section class="page-hero">
     <div class="wrap">
-      <div class="breadcrumb">Home / Testimonials</div>
-      <h1>Client Feedback</h1>
-      <p>What manufacturers, EMS providers and OEMs say about working with us.</p>
+      <div class="breadcrumb">Home / Capabilities</div>
+      <h1>PCB Testing Capabilities</h1>
+      <p>Seven core disciplines, each performed to documented procedures for defensible, repeatable results.</p>
     </div>
   </section>
-  <section class="sec">
-    <div class="wrap">
-      <div class="testi-track">
-        <div class="testi"><div class="stars">★★★★★</div><p>"Turnaround was fast and the microsection reports were the clearest we've received from any lab."</p><div class="who"><div class="avatar">RK</div><div><div class="n">Quality Manager</div><div class="r">PCB Manufacturing Co.</div></div></div></div>
-        <div class="testi"><div class="stars">★★★★★</div><p>"Independent, unbiased testing that helped us close out an IPC compliance audit without issues."</p><div class="who"><div class="avatar">SM</div><div><div class="n">NPI Engineer</div><div class="r">EMS Provider</div></div></div></div>
-        <div class="testi"><div class="stars">★★★★★</div><p>"Their solderability and copper peel data gave our supplier the evidence needed to correct the process."</p><div class="who"><div class="avatar">AV</div><div><div class="n">Sourcing Head</div><div class="r">Automotive Electronics</div></div></div></div>
-      </div>
-    </div>
+  <section class="sec" style="padding-top:60px;">
+    <div class="wrap" id="serviceBlocks"></div>
   </section>
   <section class="sec bg-paper2 tight">
     <div class="wrap">
-      <div class="cta-banner reveal">
-        <div><h3>Ready to work with us?</h3><p>Request a quote and see the difference independent testing makes.</p></div>
-        <a href="#quote" class="btn btn-copper" onclick="go('quote')">Request Quote →</a>
+      <div class="next-step reveal">
+        <div>
+          <div class="ns-label">Next</div>
+          <h3>Industries We Serve</h3>
+          <p>See how our testing supports quality across the electronics value chain.</p>
+        </div>
+        <a href="#industries" class="ns-arrow" onclick="go('industries')">Industries →</a>
       </div>
-    </div>
-  </section>
-</div>
-
-<!-- ============ FAQ ============ -->
-<div class="page" id="page-faq">
-  <section class="page-hero">
-    <div class="wrap">
-      <div class="breadcrumb">Home / FAQ</div>
-      <h1>Frequently Asked Questions</h1>
-      <p>Common questions about our PCB testing and packing services.</p>
-    </div>
-  </section>
-  <section class="sec">
-    <div class="wrap">
-      <div class="faq" id="faqPageList"></div>
     </div>
   </section>
 </div>
@@ -360,11 +325,14 @@ gtag('config', 'G-C505G73MJR');
       <div class="grid grid-4" id="industryCards"></div>
     </div>
   </section>
-  <section class="sec bg-navy tight">
+  <section class="sec bg-paper2 tight">
     <div class="wrap">
-      <div class="cta-banner reveal">
-        <div><h3>Compliance-Critical Industries</h3><p>We tailor PCB test plans to meet your industry's compliance, quality, and certification requirements.</p></div>
-        <a href="#quote" class="btn btn-copper" onclick="go('quote')">Get a Quote →</a>
+      <div class="next-step reveal">
+        <div>
+          <h3>Compliance-Critical Industries</h3>
+          <p>We tailor PCB test plans to meet your industry's compliance, quality, and certification requirements.</p>
+        </div>
+        <a href="#contact" class="ns-arrow" onclick="go('contact')">Contact Us →</a>
       </div>
     </div>
   </section>
@@ -443,12 +411,12 @@ gtag('config', 'G-C505G73MJR');
   </section>
 </div>
 
-<!-- ============ CONTACT ============ -->
+<!-- ============ CONTACT (incl. FAQ) ============ -->
 <div class="page" id="page-contact">
   <section class="page-hero">
     <div class="wrap">
-      <div class="breadcrumb">Home / Contact</div>
-      <h1>Contact Us</h1>
+      <div class="breadcrumb">Home / Contact &amp; FAQ</div>
+      <h1>Contact &amp; FAQ</h1>
       <p>We appreciate your time and consideration, and look forward to the opportunity to partner with you.</p>
     </div>
   </section>
@@ -465,20 +433,12 @@ gtag('config', 'G-C505G73MJR');
             <div><h4>Email</h4><p>info@accurexlab.com</p></div>
           </div>
           <div class="contact-card">
-            <div class="icowrap">🌐</div>
-            <div><h4>Website</h4><p><a href="https://www.accurexlab.com" target="_blank" rel="noopener">www.accurexlab.com</a></p></div>
-          </div>
-          <div class="contact-card">
             <div class="icowrap">☎</div>
-            <div><h4>Mr. Anil Kumar KS</h4><p>Director – Business Development<br>Mobile: +91 98455 41526</p></div>
-          </div>
-          <div class="contact-card">
-            <div class="icowrap">☎</div>
-            <div><h4>Mr. Ganesh Shetti</h4><p>Head – Business Development &amp; Operations<br>Mobile: +91 99868 19306</p></div>
+            <div><h4>Speak With Our Team</h4><p>Ganesh Shetti — +91 99868 19306<br>Anil Kumar KS — +91 98455 41526</p></div>
           </div>
         </div>
         <div class="reveal">
-          <div class="map-box map-box-tall">
+          <div class="map-box map-box-fit">
             <iframe
               src="https://www.google.com/maps?q=3MCM%2B6V+Anagalapura,+Karnataka&output=embed"
               width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
@@ -490,13 +450,43 @@ gtag('config', 'G-C505G73MJR');
       </div>
     </div>
   </section>
+
+  <section class="sec bg-paper2">
+    <div class="wrap">
+      <div class="sec-head center">
+        <div class="eyebrow" style="justify-content:center;">FAQ</div>
+        <h2>Frequently Asked Questions</h2>
+        <p>Common questions about our PCB testing and packing services.</p>
+      </div>
+      <div class="faq" id="faqPageList"></div>
+    </div>
+  </section>
+
+  <section class="sec tight">
+    <div class="wrap">
+      <div class="next-step reveal">
+        <div>
+          <div class="ns-label">Next</div>
+          <h3>Ready to Get Started?</h3>
+          <p>Share your PCB testing requirements and we'll respond with a detailed quote within 24 hours.</p>
+        </div>
+        <a href="#quote" class="ns-arrow" onclick="go('quote')">Request a Quote →</a>
+      </div>
+    </div>
+  </section>
 </div>
 
 <footer>
   <div class="wrap">
-    <div class="footer-minimal">
-      <img src="images/logo-full.png" alt="Accurex Lab Solutions LLP" class="footer-wordmark">
-      <p class="footer-tag">Independent PCB Testing &amp; Inspection Laboratory</p>
+    <div class="footer-top">
+      <div class="footer-brand-block">
+        <img src="images/footer-badge.png" alt="Accurex Lab Solutions" class="footer-badge">
+      </div>
+      <nav class="footer-links">
+        <a href="#home" onclick="go('home')">Home</a>
+        <a href="#contact" onclick="go('contact')">Contact</a>
+        <a href="#quote" onclick="go('quote')">Request Quote</a>
+      </nav>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Accurex Lab Solutions LLP. All rights reserved.</span>
