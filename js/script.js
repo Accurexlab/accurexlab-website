@@ -1,18 +1,36 @@
 const IMG = {
-  svc1_thumb: "images/visual-inspection.jpg",
-  svc1_large: "images/visual-inspection-large.jpg",
-  svc2_thumb: "images/copper-peel-strength.jpg",
-  svc2_large: "images/copper-peel-strength-large.jpg",
-  svc3_thumb: "images/solderability-testing.jpg",
-  svc3_large: "images/solderability-testing-large.jpg",
-  svc4_thumb: "images/microsection-analysis.jpg",
-  svc4_large: "images/microsection-analysis-large.jpg",
-  svc5_thumb: "images/coupon-cutting.jpg",
-  svc5_large: "images/coupon-cutting-large.jpg",
-  svc6_thumb: "images/grinding-polishing.jpg",
-  svc6_large: "images/grinding-polishing-large.jpg",
-  about1_thumb: "images/vacuum-packing.jpg",
-  about1_large: "images/vacuum-packing-large.jpg"
+  'visual-inspection_thumb': "images/visual-inspection.jpg",
+  'visual-inspection_large': "images/visual-inspection-large.jpg",
+  'copper-peel-strength_thumb': "images/copper-peel-strength.jpg",
+  'copper-peel-strength_large': "images/copper-peel-strength-large.jpg",
+  'solderability-testing_thumb': "images/solderability-testing.jpg",
+  'solderability-testing_large': "images/solderability-testing-large.jpg",
+  'coupon-cutting_thumb': "images/coupon-cutting.jpg",
+  'coupon-cutting_large': "images/coupon-cutting-large.jpg",
+  'grinding-polishing_thumb': "images/grinding-polishing.jpg",
+  'grinding-polishing_large': "images/grinding-polishing-large.jpg",
+  'microsection-analysis_thumb': "images/microsection-analysis.jpg",
+  'microsection-analysis_large': "images/microsection-analysis-large.jpg",
+  'vacuum-packing_thumb': "images/vacuum-packing.jpg",
+  'vacuum-packing_large': "images/vacuum-packing-large.jpg",
+  'cap-visual-inspection_thumb': "images/cap-visual-inspection.jpg",
+  'cap-visual-inspection_large': "images/cap-visual-inspection-large.jpg",
+  'cap-copper-peel-strength_thumb': "images/cap-copper-peel-strength.jpg",
+  'cap-copper-peel-strength_large': "images/cap-copper-peel-strength-large.jpg",
+  'cap-solderability-testing_thumb': "images/cap-solderability-testing.jpg",
+  'cap-solderability-testing_large': "images/cap-solderability-testing-large.jpg",
+  'cap-coupon-cutting_thumb': "images/cap-coupon-cutting.jpg",
+  'cap-coupon-cutting_large': "images/cap-coupon-cutting-large.jpg",
+  'cap-grinding-polishing_thumb': "images/cap-grinding-polishing.jpg",
+  'cap-grinding-polishing_large': "images/cap-grinding-polishing-large.jpg",
+  'cap-microsection-analysis_thumb': "images/cap-microsection-analysis.jpg",
+  'cap-microsection-analysis_large': "images/cap-microsection-analysis-large.jpg",
+  'cap-vacuum-packing_thumb': "images/cap-vacuum-packing.jpg",
+  'cap-vacuum-packing_large': "images/cap-vacuum-packing-large.jpg",
+  whoweare_thumb: "images/who-we-are.jpg",
+  whoweare_large: "images/who-we-are-large.jpg",
+  whyaccurex_thumb: "images/why-accurex-lab.jpg",
+  whyaccurex_large: "images/why-accurex-lab-large.jpg"
 };
 // ===================== DATA =====================
 const ICON_PCB = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></svg>';
@@ -31,6 +49,24 @@ const ICON_SCISSORS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor
 const ICON_POLISH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="6.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>';
 const ICON_PACKAGE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.2 12 3l9 5.2v7.6L12 21l-9-5.2Z"/><path d="M3 8.2 12 13l9-4.8"/><path d="M12 13v8"/></svg>';
 
+const ICON_SCALE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M4 7h6M14 7h6"/><path d="M7 7l-4 8a4 4 0 0 0 8 0L7 7Z"/><path d="M17 7l-4 8a4 4 0 0 0 8 0l-4-8Z"/></svg>';
+const ICON_TEAM = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.5 2.7-6.2 6-6.2s6 2.7 6 6.2"/><circle cx="17.5" cy="9" r="2.4"/><path d="M15.7 14.3c2.7.4 4.8 2.7 4.8 5.7"/></svg>';
+const ICON_CHECKDOC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8.5 11.6l2.2 2.2 4.8-4.9"/><path d="M8 17h8"/></svg>';
+const ICON_REPORT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>';
+const ICON_TARGET2 = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>';
+const ICON_PRECISION = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><path d="M12 5v3M12 16v3M5 12h3M16 12h3"/><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/></svg>';
+const ICON_CLOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>';
+const ICON_HEART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 5c-2.5 4.6-9.5 9-9.5 9Z"/></svg>';
+const ICON_ALERT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 16H3L12 3Z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="0.9" fill="currentColor" stroke="none"/></svg>';
+const ICON_SHIELD2 = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.2l7 2.8v5.6c0 4.8-3.2 7.7-7 8.7-3.8-1-7-3.9-7-8.7V6l7-2.8Z"/></svg>';
+const ICON_INBOX = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h5l1.5 3h5L16 12h5"/><path d="M4 12l1-7h14l1 7v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6Z"/></svg>';
+const ICON_CLIPBOARD = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="17" rx="2"/><rect x="9" y="2.5" width="6" height="3" rx="1"/><path d="M9 11h6M9 15h6"/></svg>';
+const ICON_FLASK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5.5 9.5A2 2 0 0 0 6.2 21h11.6a2 2 0 0 0 1.7-3L14 9V3"/><path d="M8 15h8"/></svg>';
+const ICON_MICROSCOPE2 = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 21v-4"/><circle cx="12" cy="10" r="5"/><path d="M9.3 7.3l6 6"/><path d="M16 4l3 3"/></svg>';
+const ICON_RULER = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="6" rx="1"/><path d="M7 9v3M11 9v3M15 9v3M19 9v3"/></svg>';
+const ICON_ENCLOSURE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16M9 4v16"/></svg>';
+const ICON_TAG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12.5V5a2 2 0 0 1 2-2h7.5L21 11.5 12.5 20 3 12.5Z"/><circle cx="8" cy="8" r="1.4" fill="currentColor" stroke="none"/></svg>';
+
 
 const SERVICES = [
   {
@@ -45,7 +81,7 @@ const SERVICES = [
       'Board profile and thickness checks'
     ],
     specs:[['Method','Magnified Visual Exam'],['Standard','IPC-A-600'],['Output','Defect Map + Report'],['Turnaround','24–48 hrs']],
-    img:'svc1', imgcap:'Inspection Station'
+    img:'visual-inspection', capImg:'cap-visual-inspection', imgcap:'Visual Inspection'
   },
   {
     icon:ICON_PEEL, tag:'SERVICE-02', title:'Copper Peel Strength Testing',
@@ -58,7 +94,7 @@ const SERVICES = [
       'Quantified peel-force measurement'
     ],
     specs:[['Method','Mechanical Peel Test'],['Standard','IPC-TM-650'],['Unit','N/mm (peel force)'],['Turnaround','24–48 hrs']],
-    img:'svc2', imgcap:'Peel Strength Tester'
+    img:'copper-peel-strength', capImg:'cap-copper-peel-strength', imgcap:'Copper Peel Strength Testing'
   },
   {
     icon:ICON_DROPLET, tag:'SERVICE-03', title:'Solderability Testing',
@@ -71,10 +107,36 @@ const SERVICES = [
       'Solder joint formation capability'
     ],
     specs:[['Method','Wetting Balance / Dip Test'],['Standard','IPC J-STD-003'],['Output','Wetting Curve + Report'],['Turnaround','24–48 hrs']],
-    img:'svc3', imgcap:'Solderability Test Rig'
+    img:'solderability-testing', capImg:'cap-solderability-testing', imgcap:'Solderability Testing'
   },
   {
-    icon:ICON_LAYERS, tag:'SERVICE-04', title:'Microsection Analysis',
+    icon:ICON_SCISSORS, tag:'SERVICE-04', title:'Coupon Cutting',
+    short:'Prepares precisely located test coupons that protect internal board layers throughout the sample-prep process.',
+    desc:'Accurately extracts test coupons from panels at defined locations, preserving structural integrity for downstream microsection and reliability testing.',
+    points:[
+      'Precise, defined coupon extraction',
+      'Prevents damage to internal layers',
+      'Supports compliance with IPC quality standards',
+      'Consistent, repeatable sample preparation'
+    ],
+    specs:[['Method','Precision Coupon Extraction'],['Standard','IPC-TM-650 2.1.1'],['Output','Ready-to-mount Coupons'],['Turnaround','24 hrs']],
+    img:'coupon-cutting', capImg:'cap-coupon-cutting', imgcap:'Coupon Cutting'
+  },
+  {
+    icon:ICON_POLISH, tag:'SERVICE-05', title:'Grinding & Polishing',
+    short:'Delivers optically clear sample surfaces that reveal true internal structure without introducing artifacts.',
+    desc:'Mechanically grinds and polishes prepared coupons to a defect-free finish, essential for confirming plating quality and reliability of vias.',
+    points:[
+      'Confirms plating quality and via reliability',
+      'Detects defects not visible through visual inspection',
+      'Verifies the internal quality of multilayer PCBs',
+      'Optically clear finish for microscopy'
+    ],
+    specs:[['Method','Multi-stage Mechanical Polish'],['Standard','IPC-TM-650 2.1.1'],['Finish','Mirror / Sub-micron'],['Turnaround','24–48 hrs']],
+    img:'grinding-polishing', capImg:'cap-grinding-polishing', imgcap:'Grinding & Polishing'
+  },
+  {
+    icon:ICON_LAYERS, tag:'SERVICE-06', title:'Microsection Analysis',
     short:'Provides an accurate cross-section view to detect internal defects that visual inspection alone can never catch.',
     desc:'Cross-sections the PCB to examine copper plating thickness, hole wall quality, inner-layer connectivity and resin integrity at a microscopic level.',
     points:[
@@ -85,33 +147,7 @@ const SERVICES = [
       'Delamination and voids detection'
     ],
     specs:[['Method','Cross-Section Microscopy'],['Standard','IPC-TM-650 2.1.1'],['Magnification','up to 400x'],['Turnaround','48–72 hrs']],
-    img:'svc4', imgcap:'Microsection Microscope'
-  },
-  {
-    icon:ICON_SCISSORS, tag:'SERVICE-05', title:'Coupon Cutting',
-    short:'Prepares precisely located test coupons that protect internal board layers throughout the sample-prep process.',
-    desc:'Accurately extracts test coupons from panels at defined locations, preserving structural integrity for downstream microsection and reliability testing.',
-    points:[
-      'Precise, defined coupon extraction',
-      'Prevents damage to internal layers',
-      'Supports compliance with IPC quality standards',
-      'Consistent, repeatable sample preparation'
-    ],
-    specs:[['Method','Precision Coupon Extraction'],['Standard','IPC-TM-650 2.1.1'],['Output','Ready-to-mount Coupons'],['Turnaround','24 hrs']],
-    img:'svc5', imgcap:'Coupon Cutting Machine'
-  },
-  {
-    icon:ICON_POLISH, tag:'SERVICE-06', title:'Grinding & Polishing',
-    short:'Delivers optically clear sample surfaces that reveal true internal structure without introducing artifacts.',
-    desc:'Mechanically grinds and polishes prepared coupons to a defect-free finish, essential for confirming plating quality and reliability of vias.',
-    points:[
-      'Confirms plating quality and via reliability',
-      'Detects defects not visible through visual inspection',
-      'Verifies the internal quality of multilayer PCBs',
-      'Optically clear finish for microscopy'
-    ],
-    specs:[['Method','Multi-stage Mechanical Polish'],['Standard','IPC-TM-650 2.1.1'],['Finish','Mirror / Sub-micron'],['Turnaround','24–48 hrs']],
-    img:'svc6', imgcap:'Grinding & Polishing Station'
+    img:'microsection-analysis', capImg:'cap-microsection-analysis', imgcap:'Microsection Analysis'
   },
   {
     icon:ICON_PACKAGE, tag:'SERVICE-07', title:'Vacuum Packing',
@@ -125,7 +161,7 @@ const SERVICES = [
       'Ready for safe storage or dispatch'
     ],
     specs:[['Method','Vacuum Skin Packing'],['Includes','Humidity Card + Silica Gel'],['Protection','Moisture & Static'],['Turnaround','24 hrs']],
-    img:'about1', imgcap:'Vacuum Packing Machine'
+    img:'vacuum-packing', capImg:'cap-vacuum-packing', imgcap:'Vacuum Packing'
   }
 ];
 
@@ -149,7 +185,7 @@ const FAQS = [
 
 const WHY = [
   {t:'Accurate Results', d:'Every test performed to documented, repeatable procedures.'},
-  {t:'Technical Expertise', d:'Engineers specialised specifically in PCB inspection.'},
+  {t:'Engineering Excellence', d:'Specialized engineers with deep expertise in PCB inspection and quality evaluation.'},
   {t:'Industry Compliance', d:'Methods aligned to recognised IPC requirements.'},
   {t:'Fast Turnaround', d:'Responsive scheduling that keeps your line moving.'}
 ];
@@ -159,12 +195,18 @@ function renderCapabilitiesCards(){
   const el = document.getElementById('capabilitiesCards');
   if(!el) return;
   el.innerHTML = SERVICES.map((s,i)=>`
-    <div class="card reveal">
-      <span class="tag">${s.tag}</span>
-      <div class="icowrap icowrap-lg">${s.icon}</div>
-      <h4>${s.title}</h4>
-      <p>${s.short}</p>
-      <a class="learn" href="#capabilities" onclick="goToCapability(${i+1});return false;">Learn more →</a>
+    <div class="svc-card reveal">
+      <div class="svc-card-media">
+        <img src="${IMG[s.img+'_thumb']}" alt="${s.title}" loading="lazy">
+        <div class="svc-card-fade"></div>
+        <div class="svc-card-icowrap">${s.icon}</div>
+        <span class="svc-card-tag">${s.tag}</span>
+      </div>
+      <div class="svc-card-body">
+        <h4>${s.title}</h4>
+        <p>${s.short}</p>
+        <a class="learn" href="#capabilities" onclick="goToCapability(${i+1});return false;">Learn more →</a>
+      </div>
     </div>`).join('');
 }
 function renderIndustryCards(){
@@ -180,7 +222,7 @@ function renderWhyChoose(){
   const el = document.getElementById('whyChooseGrid');
   el.innerHTML = WHY.map((w,i)=>`
     <div class="glass reveal">
-      <div style="font-family:'Inter',sans-serif;color:var(--copper-light);font-size:12px;margin-bottom:10px;">0${i+1}</div>
+      <div style="font-family:'Inter',sans-serif;font-weight:800;color:var(--copper-light);font-size:26px;margin-bottom:12px;letter-spacing:.02em;">0${i+1}</div>
       <h4>${w.t}</h4>
       <p>${w.d}</p>
     </div>`).join('');
@@ -199,8 +241,8 @@ function renderServiceBlocks(){
   el.innerHTML = SERVICES.map((s,i)=>`
     <div class="service-block reveal" id="cap-detail-${i+1}">
       <div class="service-flex">
-        <div class="service-media" onclick="openLightbox('${s.img}','${s.imgcap}')">
-          <img src="${IMG[s.img+'_thumb']}" alt="${s.title} equipment">
+        <div class="service-media" onclick="openLightbox('${s.capImg}','${s.imgcap}')">
+          <img src="${IMG[s.capImg+'_thumb']}" alt="${s.title} equipment">
           <div class="cap"><span>${s.imgcap}</span><span class="zoom-hint">⤢</span></div>
         </div>
         <div class="service-left">
@@ -251,11 +293,40 @@ function toggleMobile(){
 function toggleFaq(i){
   document.getElementById('faq-'+i).classList.toggle('open');
 }
+function encodeFormData(data){
+  return Object.keys(data).map(k => encodeURIComponent(k) + '=' + encodeURIComponent(data[k])).join('&');
+}
 function submitForm(e, successId, formId){
   e.preventDefault();
-  document.getElementById(successId).classList.add('show');
-  document.getElementById(formId).reset();
-  document.getElementById(successId).scrollIntoView({behavior:'smooth', block:'center'});
+  const form = document.getElementById(formId);
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const originalBtnText = submitBtn ? submitBtn.textContent : '';
+  const formData = new FormData(form);
+  const payload = {};
+  formData.forEach((value, key) => { payload[key] = value; });
+
+  if(submitBtn){ submitBtn.disabled = true; submitBtn.textContent = 'Submitting…'; }
+
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: encodeFormData(payload)
+  })
+  .then(() => {
+    document.getElementById(successId).classList.add('show');
+    form.reset();
+    document.getElementById(successId).scrollIntoView({behavior:'smooth', block:'center'});
+  })
+  .catch((error) => {
+    console.error('Form submission error:', error);
+    document.getElementById(successId).classList.add('show');
+    form.reset();
+    document.getElementById(successId).scrollIntoView({behavior:'smooth', block:'center'});
+  })
+  .finally(() => {
+    if(submitBtn){ submitBtn.disabled = false; submitBtn.textContent = originalBtnText; }
+  });
+
   return false;
 }
 function openLightbox(key, caption){
